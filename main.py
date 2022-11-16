@@ -71,6 +71,10 @@ def pesanLagi():
         os.system('pause')
         os.system('cls||clear')
         masuk()
+    else:
+        print('unknow input')
+        time.sleep(2)
+        pesanLagi()
         
 
         
